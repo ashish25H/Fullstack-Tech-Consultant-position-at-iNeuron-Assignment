@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242B2E;
+}
+
+.navBar{
+    background-color: #03203C;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.mainSection{
+    height: 100vh;
+    background-color: #242B2E;
+    padding: 30px;
+}
+.isroCenter{
+    margin-bottom: 60px;
+}
+
+.text{
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+input{
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: none;
+}
+.button{
+    border: none;
+    background-color: #35BDD0;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.isroCenterResult{
+    color: #ffffff;
+    background-color: #35BDD0;
+    margin-top: 10px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+.spacecraftList{
+    color: #ffffff;
+}
+.heading{
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.List{
+    padding: 10px 35px 10px 5px;
+}

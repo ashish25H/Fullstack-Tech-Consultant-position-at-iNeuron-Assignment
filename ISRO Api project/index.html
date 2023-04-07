@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO API Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navBar">
+        <p>ISRO API Project</p>
+    </nav>
+
+    <main class="mainSection">
+        <div class="searchDetails">
+            <div class="isroCenter">
+                <p class="text">Search ISRO Center by state Name : </p>
+                <div>
+                    <input type="text" name="stateName" id="stateName">
+                    <button class="button" id="isroCenterSearchBtn">Search</button>
+                </div>
+                <div class="isroCenterResult" id="isroCenterResult"></div>
+            </div>
+
+            <div class="customerSatellites">
+                <p class="text">Search Customer Satellites Details : </p>
+                <div>
+                    <input type="text" name="customerSatellites" id="customerSatellites">
+                    <button class="button" id="customerSatellitesDetailBtn">Search</button>
+                </div>
+
+                <div class="customerSatellitesResult" id="customerSatellitesResult"></div>
+            </div>
+
+        </div>
+
+        <div class="listOfSpacecraft" id="listOfSpacecraft">
+            <h1 class="heading">List of Spacecrafts : </h1>
+           
+            <select name="spacecraftList" id="spacecraftList" class="List">
+
+            </select>
+        </div>
+        
+        <div class="listOfRockets" id="listOfRockets">
+            <h1 class="heading">List of Rockts creatd by ISRO : </h1>
+           
+            <select name="rocketList" id="rocketList" class="List">
+
+            </select>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
